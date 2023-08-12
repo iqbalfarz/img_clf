@@ -1,1 +1,12 @@
-*./__pycache__/
+# Exclude common Python-related files and directories
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude files generated during development
+*.log
+*.db
+*.sqlite
+
+# Exclude virtual environment directories (if applicable)
+venv/
